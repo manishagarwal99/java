@@ -8,10 +8,10 @@ class TwelveDays {
 
     String verses(int startVerse, int endVerse) {
         String verseLines="";
-        int i;
-        for(i=startVerse-1;i<endVerse-1;i++)
-            verseLines+=arr[i]+"\n\n";                
-        return verseLines+arr[i]+"\n";
+        int lineNum;
+        for(lineNum=startVerse-1;lineNum<endVerse-1;lineNum++)
+            verseLines+=arr[lineNum]+"\n\n";                
+        return verseLines+arr[lineNum]+"\n";
     }
     
     String sing() {
