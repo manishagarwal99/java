@@ -2,8 +2,8 @@ class RnaTranscription {
 
     String transcribe(String dnaStrand) {
         String rnaStrand = "";
-        for(int i=0;i<dnaStrand.length();i++){
-            switch(dnaStrand.charAt(i)){
+        for(int nucleotide=0;nucleotide<dnaStrand.length();nucleotide++){
+            switch(dnaStrand.charAt(nucleotide)){
                 case 'G':
                     rnaStrand+='C';
                     break;
